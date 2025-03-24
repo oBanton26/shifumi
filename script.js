@@ -42,6 +42,8 @@ function playGame () {
         }
     }
 
+
+    // I think it would be better to just call the get functions directly into the playRound call
     let humanChoice = getHumanChoice();
     let computerChoice = getComputerChoice();
     playRound(humanChoice, computerChoice);
@@ -65,5 +67,5 @@ function playGame () {
     return console.log("Your score is "+humanScore+" and the machine's is "+computerScore);
 }
 
-
+console.log("Hey welcome ! You can play my simple Shifumi game on the console: simply write the 'playGame();' command. Enjoy !")
 
