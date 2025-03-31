@@ -41,6 +41,8 @@ function playRound (humanChoice, computerChoice) {
 
     if (humanScore == 5 || computerScore == 5) {
         score.textContent = `THE WINNER IS ${(humanScore>computerScore)?"YOU !":"THE COMPUTER !"}`
+        humanScore = 0;
+        computerScore = 0;
     }
 }
 
