@@ -48,22 +48,6 @@ function playGame () {
     let computerChoice = getComputerChoice();
     playRound(humanChoice, computerChoice);
 
-    humanChoice = getHumanChoice();
-    computerChoice = getComputerChoice();
-    playRound(humanChoice, computerChoice);
-
-    humanChoice = getHumanChoice();
-    computerChoice = getComputerChoice();
-    playRound(humanChoice, computerChoice);
-
-    humanChoice = getHumanChoice();
-    computerChoice = getComputerChoice();
-    playRound(humanChoice, computerChoice);
-
-    humanChoice = getHumanChoice();
-    computerChoice = getComputerChoice();
-    playRound(humanChoice, computerChoice);
-
     return console.log("Your score is "+humanScore+" and the machine's is "+computerScore);
 }
 
